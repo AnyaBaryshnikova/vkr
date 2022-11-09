@@ -4,7 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1af11568-21ff-449e-9a9a-899f66500d9d" name="Default Changelist" comment="rt proj" />
+    <list default="true" id="1af11568-21ff-449e-9a9a-899f66500d9d" name="Default Changelist" comment="rt proj">
+      <change afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_thymeleaf_thymeleaf_Release.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_thymeleaf_thymeleaf_Release.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -84,7 +90,7 @@
       <recent name="com.rt.controller" />
     </key>
   </component>
-  <component name="RunManager" selected="Spring Boot.Application">
+  <component name="RunManager" selected="Docker.docker-compose.yml: Compose Deployment">
     <configuration name="Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="rt" />
       <extension name="coverage">
@@ -176,12 +182,40 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="docker-compose.yml: Compose Deployment" type="docker-deploy" factoryName="docker-compose.yml" temporary="true" server-name="Docker">
+      <deployment type="docker-compose.yml">
+        <settings>
+          <option name="sourceFilePath" value="docker-compose.yml" />
+        </settings>
+      </deployment>
+      <method v="2" />
+    </configuration>
+    <configuration name="docker-compose.yml.myapp-main: Compose Deployment" type="docker-deploy" factoryName="docker-compose.yml" temporary="true" server-name="Docker">
+      <deployment type="docker-compose.yml">
+        <settings>
+          <option name="envFilePath" value="" />
+          <option name="services">
+            <list>
+              <option value="myapp-main" />
+            </list>
+          </option>
+          <option name="sourceFilePath" value="docker-compose.yml" />
+          <option name="upExitCodeFromService" value="" />
+          <option name="upTimeout" value="" />
+        </settings>
+      </deployment>
+      <method v="2" />
+    </configuration>
     <list>
+      <item itemvalue="Docker.docker-compose.yml.myapp-main: Compose Deployment" />
+      <item itemvalue="Docker.docker-compose.yml: Compose Deployment" />
       <item itemvalue="Spring Boot.Application" />
       <item itemvalue="Tomcat Server.Tomcat 10.0.6" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Docker.docker-compose.yml: Compose Deployment" />
+        <item itemvalue="Docker.docker-compose.yml.myapp-main: Compose Deployment" />
         <item itemvalue="Spring Boot.Application" />
       </list>
     </recent_temporary>
@@ -259,7 +293,11 @@
       <workItem from="1664011744715" duration="591000" />
       <workItem from="1664983120185" duration="199000" />
       <workItem from="1665397816154" duration="586000" />
-      <workItem from="1665657017684" duration="818000" />
+      <workItem from="1665657017684" duration="1703000" />
+      <workItem from="1667851715197" duration="772000" />
+      <workItem from="1667983480384" duration="2644000" />
+      <workItem from="1667989859564" duration="216000" />
+      <workItem from="1667990251772" duration="429000" />
     </task>
     <task id="LOCAL-00001" summary="rt proj">
       <created>1662486150064</created>
