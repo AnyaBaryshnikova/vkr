@@ -52,7 +52,7 @@
                         </div>
                         <div class="input-group mb-3">
                             <select class="form-select" aria-label="Default select example" name="manager">
-                                <option selected>Ответсвенный за проект</option>
+                                <option selected>Ответственный за проект</option>
                                 <c:forEach items="${users}" var="user">
                                     <option value="${user.username}">${user.username}
                                     </option>
